@@ -1,0 +1,6 @@
+name: BattleFreeze
+version: 1.0
+description: 
+authors: [Zach443]
+main: me.zach.BattleFreeze.BattleFreeze
+depend: [BattleArena]
