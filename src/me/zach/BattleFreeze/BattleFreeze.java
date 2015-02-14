@@ -13,6 +13,7 @@ import org.bukkit.potion.PotionEffectType;
 public class BattleFreeze extends JavaPlugin implements Listener{
 
 	int duration = getConfig().getInt("duration");
+	int intensity = getConfig().getInt("intensity");
 	
 	@Override
 	public void onEnable(){
@@ -32,7 +33,7 @@ public class BattleFreeze extends JavaPlugin implements Listener{
 			EntityDamageByEntityEvent edbeEvent = (EntityDamageByEntityEvent)event;
 			if ((edbeEvent.getDamager() instanceof Snowball)) {
 				LivingEntity entity = (LivingEntity) event.getEntity();
-				entity.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 500, duration), true);
+				entity.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, intensity, duration), true);
 				
 			}
 		}

@@ -4,7 +4,7 @@
     <groupId>me.zach</groupId>
     <artifactId>battlefreeze</artifactId>
     <packaging>jar</packaging>
-    <version>172${maven.build.timestamp}</version>
+    <version>2.0</version>
     <name>BattleFreeze</name>
     <properties>
         <maven.build.timestamp.format>yyMMdd-HHmm</maven.build.timestamp.format>

@@ -1,2 +1,7 @@
-#Set duration of the slowness
-duration:
+#Set duration of the slowness (in ticks)
+duration: 40
+
+#Set the intensity of the slowness effect
+#Ex. 5 would be Slowness 5
+#You could also go a bit crazy and put 500
+intensity: 500

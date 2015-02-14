@@ -1,6 +1,5 @@
 name: BattleFreeze
-version: v1.5
-description: 
+version: v2.0
+description:
 authors: [Zach443]
 main: me.zach.BattleFreeze.BattleFreeze
-depend: [BattleArena]
